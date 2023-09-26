@@ -125,6 +125,11 @@ body{
     position: relative;
 }
 
+.hero__cta:hover{
+    background-image:linear-gradient(to left, var(--cyan-gradient), var(--blue-gradient));
+    cursor: pointer;
+}
+
 .cards {
     text-align: center;
     display: grid;
@@ -287,6 +292,12 @@ body{
     border-radius: 30px;
     border: none;
     outline: none;
+}
+
+.join__input:hover{
+    background-image:linear-gradient(to left, var(--cyan-gradient), var(--blue-gradient));
+    cursor: pointer;
+    
 }
 
 .join__input--submit{
